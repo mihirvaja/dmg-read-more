@@ -1,0 +1,26 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "create-block/dmg-read-more",
+  "version": "0.1.0",
+  "title": "Dmg Read More",
+  "category": "text",
+  "icon": "admin-links",
+  "description": "DMG Read More block for dmg::media task",
+  "example": {},
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "posts": {
+      "type": "array",
+      "default": []
+    },
+    "selectedPost": {
+      "type": "object",
+      "default": null
+    }
+  },
+  "textdomain": "dmg-read-more",
+  "editorScript": "file:./index.js"
+}
